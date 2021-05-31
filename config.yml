@@ -24,36 +24,36 @@ before:
 
 steps:
 # Step 1: EDIT HERE - INTERNAL COMMENT DESCRIBING STEP 
-- title: # the title of the step, shown to the learner in the course progress page
-  description: # a description of the step, shown to the learner in the course progress page
+- title: Concepts
+  description: This step introduces the key concepts for harp.gl
   event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 2: EDIT HERE -INTERNAL COMMENT FOR STEP 2
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+- title: Acquire credentials
+  description: Credentials are required to access the vector tiles.
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 3: EDIT HERE - INTERNAL COMMENT FOR STEP 3
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+- title: Add DataSource
+  description: DataSources are used as sources of data.
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 4: EDIT HERE - INTERNAL COMMENT FOR STEP 4
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+- title: Center the camera
+  description: Show how to position the camera
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 5: EDIT HERE - INTERNAL COMMENT FOR STEP 5
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+- title: Change the tilt and heading
+  description: Rotate the camera
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
