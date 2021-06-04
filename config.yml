@@ -26,7 +26,7 @@ steps:
 # Step 1: EDIT HERE - INTERNAL COMMENT DESCRIBING STEP 
 - title: Concepts
   description: This step introduces the key concepts for harp.gl
-  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  event: issue_commented.created
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
